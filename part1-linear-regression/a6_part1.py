@@ -31,7 +31,7 @@ print(f"The r squared value: {r_squared}")
 
 prediction_input = 43
 prediction_val = model.predict([[prediction_input]])
-print({prediction_val})
+print(f"Prediction when x is {prediction_input}: {prediction_val}")
 
 # Create the model in matplotlib and include the line of best fit
 # plt.figure(10,10)
