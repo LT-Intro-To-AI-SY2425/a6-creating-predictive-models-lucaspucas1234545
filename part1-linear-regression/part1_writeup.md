@@ -10,6 +10,8 @@ The r squared value represents how correlated the data is, squared. The closer t
 
 2. According to your model, what is the predicted systolic blood pressure for a person who is 42 years old?
 
-
+It predicted a value of 136.52.
 
 3. How accurate do you think this model's predictions are?  Do you think this model is accurate enough to reliably predict someone's blood pressure based on their age?  Why or why not?  And if not, what could improve the model?
+
+Its not amazingly accurate, but it does make an educated guess about where your blood pressure might be. I don't think its good enough to predict it exactally based on their age. What if they're really healthy for their age, or vice versa? The model doesn't take into consideration enough factors that influence blood pressure. I think there needs to be more variables and more data points.
