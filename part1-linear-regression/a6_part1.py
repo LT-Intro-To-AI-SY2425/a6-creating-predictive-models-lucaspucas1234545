@@ -26,10 +26,10 @@ r_squared = model.score(x, y)
 print(f"The linear equation: y= {coef}x + {intercept} ")
 print(f"The r squared value: {r_squared}")
 
-# Predict the the blood pressure of someone who is 43 years old.
+# Predict the the blood pressure of someone who is 42 years old.
 # Print out the prediction
 
-prediction_input = 43
+prediction_input = 42
 prediction_val = model.predict([[prediction_input]])
 print(f"Prediction when x is {prediction_input}: {prediction_val}")
 
