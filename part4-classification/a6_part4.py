@@ -24,6 +24,6 @@ x_train, x_test, y_train, y_test = train_test_split(x, y)
 # Step 6: Create a LogsiticRegression object and fit the data
 model = linear_model.LogisticRegression().fit(x_train, y_train)
 # Step 7: Print the score to see the accuracy of the model
-
+print(f"Score is {model.score(x_test, y_test)}")
 # Step 8: Print out the actual ytest values and predicted y values
 # based on the xtest data
